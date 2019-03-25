@@ -1,0 +1,23 @@
+# see: https://github.com/pages-themes/
+theme: jekyll-theme-architect
+repository: dynamis/netlify-ghpages
+title: 'title of your site'
+description: 'description of your site'
+show_downloads: false
+#google_analytics:
+include:
+  - _headers
+  - _redirects
+
+# Use CommonMarkGhPages for Markdown parser (after v172)
+# https://github.com/github/jekyll-commonmark-ghpages
+# https://github.com/github/pages-gem/releases/tag/v172
+markdown: CommonMarkGhPages
+commonmark:
+  options:
+    - FOOTNOTES
+    - TABLE_PREFER_STYLE_ATTRIBUTES
+  extensions:
+    - strikethrough
+    - autolink
+    - table

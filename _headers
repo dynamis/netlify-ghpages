@@ -1,0 +1,3 @@
+# custom headers definition file for netlify
+# reference: https://www.netlify.com/docs/headers-and-basic-auth/
+# playground: https://play.netlify.com/headers
